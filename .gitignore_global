@@ -1,0 +1,7 @@
+.idea
+*.iml
+/.project
+/.buildpath
+/.settings
+*.swp
+.DS_Store
