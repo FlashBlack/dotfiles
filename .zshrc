@@ -50,7 +50,10 @@ ZSH_TMUX_AUTOCONNECT='false'
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git osx tmux)
+plugins=(git osx)
+
+#by FB: if u won't add tmux plugin, use in terminal: Profile->shell-> run command:
+#tmux -f ~/.oh-my-zsh/plugins/tmux/tmux.extra.conf
 
 # User configuration
 
