@@ -1,6 +1,6 @@
 [user]
-	name = Dmitriy Chubrick
-	email = flabla.com@gmail.com
+	name = Dzmitry Chubryk
+	email = cd@onliner.by
 [alias]
         st = status
         cm = commit
@@ -24,3 +24,4 @@
 	new = green
 [push]
 	default = current
+
