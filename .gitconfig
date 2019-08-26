@@ -10,6 +10,7 @@
         lg = log -p
 	graph = log --graph --format=format:'%C(blue)%h%C(reset) - %C(green)(%ar)%C(reset) %C(white)%s%C(reset) %C(white)- %an%C(reset)%C(yellow)%d%C(reset)' --abbrev-commit --date=relative
 	graph-iso = log --graph --format=format:'%C(blue)%h%C(reset) - %C(green)(%ai)%C(reset) %C(white)%s%C(reset) %C(white)- %an%C(reset)%C(yellow)%d%C(reset)' --abbrev-commit
+	fp = !git fetch -pv && git pull -p --all
 [core]
 	editor = vim
         excludesfile = ~/.gitignore_global
