@@ -13,7 +13,7 @@
 	fp = !git fetch -pv && git pull -p --all
 [core]
 	editor = vim
-        excludesfile = ~/.gitignore_global
+	excludesfile = ~/.gitignore_global
 [color]
 	ui = true
 [color "status"]
@@ -26,3 +26,5 @@
 [push]
 	default = current
 
+[pull]
+	rebase = true
