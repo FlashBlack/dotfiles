@@ -1,16 +1,17 @@
 [user]
 	name = Dzmitry Chubryk
-	email = cd@onliner.by
+	email = flabla.com@gmail.com
 [alias]
-        st = status
-        cm = commit
-        br = branch
-        co = checkout
-        df = diff
-        lg = log -p
+	st = status
+	cm = commit
+	br = branch
+	co = checkout
+	df = diff
+	lg = log -p
 	graph = log --graph --format=format:'%C(blue)%h%C(reset) - %C(green)(%ar)%C(reset) %C(white)%s%C(reset) %C(white)- %an%C(reset)%C(yellow)%d%C(reset)' --abbrev-commit --date=relative
 	graph-iso = log --graph --format=format:'%C(blue)%h%C(reset) - %C(green)(%ai)%C(reset) %C(white)%s%C(reset) %C(white)- %an%C(reset)%C(yellow)%d%C(reset)' --abbrev-commit
 	fp = !git fetch -pv && git pull -p --all
+	fix = !git add . && git commit --amend --no-edit
 [core]
 	editor = vim
 	excludesfile = ~/.gitignore_global
